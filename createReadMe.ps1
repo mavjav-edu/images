@@ -74,6 +74,10 @@ function Set-Readme {
     }
     Set-ReadMe-Helper (Resolve-Path $TargetPath) (Resolve-Path $TargetPath)
 
+<<<<<<< HEAD
 }
 # To run the above scripts, try the following command in the root directory:
 #   Import-Module -FullyQualifiedName .\createReadMe.ps1 -Function Set-ReadMe -Force; Set-Readme -TargetPath . | Out-File README.md -Force
+=======
+}
+>>>>>>> c4aa72a432475741fed882403eb7b680d10bc14c
